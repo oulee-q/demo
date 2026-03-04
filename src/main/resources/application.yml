@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: demo-custom-project
+  config:
+    import:
+      - optional:nacos:${spring.application.name}.yaml
+      - optional:nacos:shared-database.yaml
+
+server:
+  port: 8080
