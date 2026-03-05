@@ -1,0 +1,13 @@
+custom:
+  project:
+    name: order-center
+    owner: platform-team
+    feature-enabled: true
+    whitelist-ips:
+      - 10.10.1.11
+      - 10.10.1.12
+    database:
+      url: jdbc:mysql://127.0.0.1:3306/demo?serverTimezone=Asia/Shanghai
+      username: demo_user
+      password: demo_password
+      driver-class-name: com.mysql.cj.jdbc.Driver
